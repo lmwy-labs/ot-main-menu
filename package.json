@@ -1,0 +1,32 @@
+{
+  "name": "",
+  "version": "",
+  "description": "",
+  "author": "",
+  "license": "",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "scripts": {
+    "build:dev": "webpack -d --watch",
+    "start": "node server/server.js",
+    "start:dev": "nodemon server/server.js",
+    "seed": "node db/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "mongoose": "^5.6.10",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "webpack-cli": "^3.3.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "webpack": "^4.39.2"
+  }
+}
