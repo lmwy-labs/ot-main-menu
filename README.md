@@ -1,4 +1,4 @@
-# Project Name
+# LMWY Labs
 
 > Project description
 
