@@ -1,13 +1,12 @@
-# LMWY Labs
+# Project Name
 
-> Project description
+> Menu component for OpenTable clone
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/lmwy-labs/Right-Reservations
+  - https://github.com/lmwy-labs/Main-Reviews
+  - https://github.com/lmwy-labs/Main-Gallery
 
 ## Table of Contents
 
