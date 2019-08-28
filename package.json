@@ -1,8 +1,8 @@
 {
-  "name": "",
+  "name": "main-menus",
   "version": "",
   "description": "",
-  "author": "",
+  "author": "Rey Mercado",
   "license": "",
   "engines": {
     "node": ">=6.13.0"
@@ -11,7 +11,8 @@
     "build:dev": "webpack -d --watch",
     "start": "node server/server.js",
     "start:dev": "nodemon server/server.js",
-    "seed": "node db/seed.js"
+    "seed": "node db/seed.js",
+    "test": "jest --coverage"
   },
   "dependencies": {
     "express": "^4.17.1",
@@ -25,8 +26,18 @@
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "jest": "^24.9.0",
+    "react-test-renderer": "^16.9.0",
     "webpack": "^4.39.2"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "./setupTests.js"
+    ]
   }
 }
