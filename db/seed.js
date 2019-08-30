@@ -40,10 +40,17 @@ db.once('open', function () {
     // console.log(getRandomInt(3));
     // expected output: 0, 1, or 2
 
+    // 'abc'.padStart(10);         // "       abc"
+    // 'abc'.padStart(10, "foo");  // "foofoofabc"
+    // 'abc'.padStart(6, "123465"); // "123abc"
+    // 'abc'.padStart(8, "0");     // "00000abc"
+    // 'abc'.padStart(1);          // "abc"
+
     var testRA = [];
     for (var rid = 1; rid <= quantity; rid++) {
+      console.log('r' + (rid.toString().padStart(3, '0')));
       testRA[rid] = new Menu({
-        restaurantId: rid.toString(),
+        restaurantId: 'r'+(rid.toString().padStart(3,'0')),
         type: 'menu',
         name: meals[getRandomInt(meals.length)],
         description: '',
