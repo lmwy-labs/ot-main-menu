@@ -20,7 +20,7 @@
     "mongoose": "^5.6.10",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "webpack-cli": "^3.3.7"
+    "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
