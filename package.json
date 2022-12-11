@@ -15,7 +15,7 @@
     "test": "jest --coverage"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "faker": "^4.1.0",
     "mongoose": "^5.6.10",
     "react": "^16.9.0",
